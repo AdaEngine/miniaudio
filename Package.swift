@@ -7,7 +7,7 @@ let package = Package(
     name: "miniaudio",
     products: [
         .library(
-            name: "MiniAudio",
+            name: "miniaudio",
             targets: ["miniaudio"]
         )
     ],
