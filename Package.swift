@@ -15,7 +15,9 @@ let package = Package(
         .target(
             name: "miniaudio",
             path: ".",
-            publicHeadersPath: "."
+            cSettings: [
+                .define("MINIAUDIO_IMPLEMENTATION")
+            ]
         )
     ]
 )

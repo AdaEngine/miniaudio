@@ -1,3 +1,0 @@
-module miniaudio {
-    header "miniaudio.h"
-}
