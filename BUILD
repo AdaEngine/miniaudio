@@ -5,6 +5,5 @@ cc_library(
     defines = [
         "MINIAUDIO_IMPLEMENTATION"
     ],
-    visibility = ["//visibility:public"],
-    tags = ["swift_module=miniaudio"]
+    visibility = ["//visibility:public"]
 )
