@@ -1,1 +1,2 @@
-#import "miniaudio.h"
+#define MINIAUDIO_IMPLEMENTATION
+#include "miniaudio.h"

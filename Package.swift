@@ -15,8 +15,9 @@ let package = Package(
         .target(
             name: "miniaudio",
             path: ".",
+            sources: ["miniaudio.c"],
             cSettings: [
-                .define("MINIAUDIO_IMPLEMENTATION")
+                .headerSearchPath(".")
             ]
         )
     ]

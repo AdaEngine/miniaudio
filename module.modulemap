@@ -1,5 +1,5 @@
 module miniaudio {
-    umbrella header "include/miniaudio.h"
+    header "miniaudio.h"
     
     export *
 }
