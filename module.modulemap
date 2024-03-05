@@ -1,7 +1,0 @@
-module miniaudio {
-    header "miniaudio.h"
-    
-    export *
-
-    requires cplusplus
-}

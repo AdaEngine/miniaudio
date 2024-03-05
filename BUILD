@@ -1,7 +1,7 @@
 cc_library(
     name = "miniaudio",
-    hdrs = ["miniaudio.h"],
+    hdrs = ["include/miniaudio.h"],
     srcs = ["miniaudio.c"],
-    includes = ["."],
+    includes = ["include"],
     visibility = ["//visibility:public"]
 )
