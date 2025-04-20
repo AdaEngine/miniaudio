@@ -15,7 +15,7 @@ let package = Package(
         .target(
             name: "miniaudio",
             path: ".",
-            sources: ["miniaudio.cpp"]
+            sources: ["miniaudio.c"]
         )
     ]
 )
